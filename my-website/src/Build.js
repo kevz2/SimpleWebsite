@@ -9,8 +9,8 @@ function Build(comps) {
 
     return (
         <div className="build">
-            <Header/>
-            <Button/>
+            <p className="title">{comps.title}</p>
+            <p className="description">{comps.description}</p>
             <p className="vigor">{comps.vigor}</p>
             <p className="attunement">{comps.attunement}</p>
             <p className="endurance">{comps.endurance}</p>
@@ -20,7 +20,6 @@ function Build(comps) {
             <p className="intelligence">{comps.intelligence}</p>
             <p className="faith">{comps.faith}</p>
             <p className="luck">{comps.luck}</p>
-            <p className="description">{comps.description}</p>
             <div className="weapon_array">
                 <Weapon
                 weapon_link = {comps.weapon_link_1}
@@ -32,8 +31,9 @@ function Build(comps) {
                 weapon_link = {comps.weapon_link_2}
                 weapon_image = {comps.weapon_image_2}
                 weapon_name = {comps.weapon_name_2}
-                />
+                />     
             </div>
+            <Button/>  
         </div>
     )
 
