@@ -1,0 +1,15 @@
+* {
+    margin: 0; 
+    border: 0;
+  }
+  
+  .build_name {
+      font-size: 18px;
+      font-weight: 600;
+      color: #ffffff;
+  
+      padding: 20px;
+      margin: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(180, 144, 144, 0.1);
+  }

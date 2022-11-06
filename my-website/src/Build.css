@@ -14,11 +14,21 @@
       border-radius: 15px;
       box-shadow: 0 0 10px rgba(255, 251, 251, 0.94);
   }
+
+  .title {
+    width: 100%;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 20px;
+      font-weight: 600;
+      color:rgb(0, 244, 253);
+  }
   
   .description {
       width: 100%;
       margin-bottom: 20px;
-      margin-left: 200px;
+      margin-left: 20px;
       margin-right: 20px;
       font-size: 14px;
       font-weight: 600;
