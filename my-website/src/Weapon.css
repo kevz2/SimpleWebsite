@@ -3,29 +3,23 @@
     border: 0;
   }
   
-  .container {
+  .weapon_array {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .weapon {
       display: flex;
       flex-direction: row;
   }
   
-  .profile {
-      display: flex;
-      flex-direction: column;
-      width: 200px;
-  
-      padding: 20px;
-      margin: 20px;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  .image {
-      width: 100%;
+  .weapon_image {
+      height: 200px;
       margin-bottom: 10px;
   }
   
-  .status {
-      font-size: 14px;
+  .weapon_name {
+      font-size: 20px;
       font-weight: 600;
-      color: #BCBCBC;
+      color: #38508c;
   }
