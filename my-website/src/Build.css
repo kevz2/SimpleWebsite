@@ -2,13 +2,9 @@
     margin: 0; 
     border: 0;
   }
+
   
-  .container {
-      display: flex;
-      flex-direction: row;
-  }
-  
-  .profile {
+  .build {
       display: flex;
       flex-direction: column;
       width: 200px;
@@ -16,16 +12,75 @@
       padding: 20px;
       margin: 20px;
       border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .image {
+  .description {
       width: 100%;
       margin-bottom: 10px;
-  }
-  
-  .status {
       font-size: 14px;
       font-weight: 600;
-      color: #BCBCBC;
+      color:rgba(251, 218, 108, 0.1);
   }
+  
+  .stats {
+      font-size: 12px;
+      font-weight: 600;
+      color: #ffffff;
+  }
+
+
+  .vigor {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .attunement {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .endurance {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .vitality {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .strength {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .dexterity {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .intelligence {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .faith {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .luck {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
