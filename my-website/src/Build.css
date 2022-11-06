@@ -7,28 +7,23 @@
   .build {
       display: flex;
       flex-direction: column;
-      width: 200px;
+      width: 1200px;
   
       padding: 20px;
       margin: 20px;
       border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 10px rgba(255, 251, 251, 0.94);
   }
   
   .description {
       width: 100%;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
+      margin-left: 200px;
+      margin-right: 20px;
       font-size: 14px;
       font-weight: 600;
-      color:rgba(251, 218, 108, 0.1);
+      color:rgba(249, 192, 7, 0.814);
   }
-  
-  .stats {
-      font-size: 12px;
-      font-weight: 600;
-      color: #ffffff;
-  }
-
 
   .vigor {
     font-size: 12px;
